@@ -1,35 +1,75 @@
-html, body {
-  font-family: font-family: 'Poppins', sans-serif;
-  background-color:
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
 }
 
-/* Start Navigation */
 
-nav {
-  background-color: #000;
-  padding: 0px 0px;
-  font-size: 0;
-
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "poppins" , sans-serif;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
-nav ul {
+
+.topnav a:hover {
+  color: black;
+}
+
+
+.topnav a.active {
+  color: black;
+}
+
+.unserbier {
+  margin-right: 100px;
+}
+
+.events {
+  margin-right: 400px;
+  padding-left: 100px;
+}
+
+.ueberuns {
+  margin-right: 100px;
+}
+
+.kontakt {
+  margin-left: 50px;
+}
+
+body {
+  background-color: #fff;
   padding: 0;
   margin: 0;
-  list-style-type: none;
 }
 
-nav ul li {
-  padding: 0;
-  display: inline-block;
+.keyvisual {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
-nav a {
-    font-size: 16px;
-    padding: 20px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    display: block;
+.bg-img {
+  background-image: url("img/Keyvisual.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 380px;
+  height: 720px;
+  width: 100%;
 }
 
-/* End Navigation */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  height: 100%;
+}
