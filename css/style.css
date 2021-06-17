@@ -10,7 +10,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "poppins" , sans-serif;
   margin-left: 50px;
   margin-top: 10px;
@@ -27,20 +27,19 @@
 }
 
 .unserbier {
-  margin-right: 100px;
+  margin-right: 40px;
 }
 
 .events {
-  margin-right: 400px;
-  padding-left: 100px;
+  margin-right: 360px;
 }
 
 .ueberuns {
-  margin-right: 100px;
+  margin-right: 40px;
 }
 
 .kontakt {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 body {
