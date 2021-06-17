@@ -62,8 +62,7 @@ body {
   background-size: cover;
   position: relative;
   min-height: 380px;
-  height: 720px;
-  width: 100%;
+  height: 960px;
 }
 
 .container {
@@ -71,4 +70,35 @@ body {
   margin: 20px;
   width: auto;
   height: 100%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  font-family: "poppins" , sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 100px;
+  right: 80px;
+  font-family: "poppins" , sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+.blue-text {
+  color: #6EB1E2;
+}
+
+h1 {
+  font-family: "poppins" , sans-serif;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-style: italic;
+  text-align: center;
 }
