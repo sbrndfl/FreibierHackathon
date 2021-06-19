@@ -1,6 +1,7 @@
 .topnav {
-  background-color: #6EB1E2;
+  background-color: rgba(43, 69, 99, 0.5);
   overflow: hidden;
+  margin-top: 0px;
 }
 
 
@@ -10,49 +11,41 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 38px;
   font-family: "poppins" , sans-serif;
   margin-left: 50px;
-  margin-top: 10px;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
+nav {
+  position: absolute;
+}
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .topnav a:hover {
-  color: black;
+  color: #6EB1E2;
 }
 
 
 .topnav a.active {
-  color: black;
+  color: #6EB1E2;
 }
 
-.unserbier {
-  margin-right: 70px;
-}
-
-.events {
-  margin-right: 400px;
-}
-
-.ueberuns {
-  margin-right: 70px;
-}
-
-.kontakt {
-  margin-left: 30px;
+.logo-image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 body {
   background-color: #fff;
   padding: 0;
   margin: 0;
-}
-
-.keyvisual {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
 }
 
 .bg-img {
