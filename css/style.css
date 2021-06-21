@@ -72,17 +72,17 @@ body {
   bottom: 100px;
   left: 80px;
   font-family: "poppins" , sans-serif;
-  font-size: 60px;
+  font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
   color: white;
 
 }
 
 .bottom-right {
   position: absolute;
-  bottom: 100px;
+  top: 450px;
   right: 80px;
   font-family: "poppins" , sans-serif;
-  font-size: 60px;
+  font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
   color: white;
 }
 
@@ -114,5 +114,5 @@ h1 {
 }
 
 .links {
-margin-right: 200px;
+margin-right: 250px;
 }
