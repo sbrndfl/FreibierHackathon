@@ -67,7 +67,7 @@ body {
 
 }
 
-.bottom-left {
+.text-left {
   position: absolute;
   bottom: 100px;
   left: 80px;
@@ -77,7 +77,7 @@ body {
 
 }
 
-.bottom-right {
+.text-right {
   position: absolute;
   top: 450px;
   right: 80px;
@@ -108,11 +108,54 @@ h1 {
 }
 
 
-.Kunde {
-  height: 450px;
-  width: 520px;
+.band {
+  height: 550px;
+  padding-top: 80px;
+  padding-left: 20px;
 }
 
-.links {
-margin-right: 250px;
+.ueberuns {
+  font-size: 25px;
+}
+
+.gewinn {
+  border-color: #6EB1E2;
+  border-width: medium;
+  text-align: center;
+  border-style: solid;
+}
+
+.form-control-lg {
+  width: 500px;
+}
+
+.btn-primary {
+  background-color: #6EB1E2;
+  border: none;
+  height: 48px;
+  width: 70px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.kunde {
+  height: 400px;
+
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+}
+
+.inhaltsstoffe{
+  font-size: 40px;
+  font-family: "poppins" , sans-serif;
+  margin-top: 190px;
+}
+
+footer {
+  background-color: #464D4F;
+  color: white;
+  padding: 0;
 }
