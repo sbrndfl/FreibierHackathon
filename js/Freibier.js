@@ -1,17 +1,26 @@
 $('.carousel').carousel()
 
-$('a').click(function (){
-if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-&& location.hostname == this.hostname) {
-    var $target = $(this.hash);
-    $target = $target.length && $target || $("[name='" + this.hash.slice(1) +"']");
-    if ($target.length) {
-        var targetOffset = $target.offset().top;
-        $('html,body').animate({scrollTop: targetOffset}, 700);
-        return false;
-    }
-}
-})
+
+$(function(){
+
+    $('a[href*="#"]').click(function (e) {
+        var href = $(this).attr('href'),
+        $scrollAim = $(href);
+
+        // Abbrechen wenn kein Sprungziel gefunden
+        if ($scrollAim.length == 0) return;
+
+        // Automatisches Scrollen verhindern
+        e.preventDefault();
+
+        // Zum Sprungziel animieren
+        $('html,body').animate({
+            scrollTop: $scrollAim.offset().top
+        }, 700);
+    });
+
+});
+
 
 $(function() {
    var menuVisible = false;
