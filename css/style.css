@@ -63,7 +63,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 720px;
+  height: 100vh;
   background-attachment: fixed;
 
 }
