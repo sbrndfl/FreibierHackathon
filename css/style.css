@@ -5,6 +5,9 @@
   margin-top: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 .topnav a {
   float: left;
@@ -34,8 +37,8 @@ nav ul {
 }
 
 .logo-image {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   overflow: hidden;
   margin-bottom: -10px;
   margin-top: -10px;
@@ -104,7 +107,7 @@ h1 {
 }
 
 .carousel-inner {
-  height: 720px;
+  height: 800px;
 }
 
 
