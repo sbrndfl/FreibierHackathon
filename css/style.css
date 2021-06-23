@@ -162,3 +162,32 @@ footer {
   color: white;
   padding: 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .hidden-burger {
+    display: none;
+    height:auto;z-index:1;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+.logo-image {
+  display: none;
+}
+
+.topnav {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(0,0,0,0.3)
+}
+
+nav ul li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+a:hover, a:active {
+  color: #6EB1E2;
+}
