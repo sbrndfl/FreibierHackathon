@@ -1,4 +1,10 @@
 /* NAV */
+
+#icon {
+  width: 55px;
+  background: transparent;
+  padding-left: 20px;
+}
 .topnav {
   background-color: transparent;
   overflow: hidden;
@@ -161,4 +167,54 @@ footer {
   background-color: #464D4F;
   color: white;
   padding: 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .hidden-tablet {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+a {display:none}
+
+@media only screen and (max-width: 768px) {
+  .only-mobile {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .only-tablet {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .only-desktop {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hidden-burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+ul {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+nav ul li {
+  display: block;
+}
+a:hover, a:active {
+  background:none;
+  color: #0082e6;
 }
