@@ -191,6 +191,10 @@ a {display:none}
 }
 
 @media screen and (max-width: 768px) {
+  .logo-image {
+    display: none;
+  }
+}
 
 ul {
   text-align: center;
@@ -203,4 +207,8 @@ nav ul li {
 a:hover, a:active {
   background:none;
   color: #0082e6;
+}
+
+#icon {
+  padding: 10px;
 }
