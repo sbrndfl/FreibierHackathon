@@ -12,3 +12,16 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     }
 }
 })
+
+$(function() {
+   var menuVisible = false;
+   $('#burger').click(function() {
+     if (menuVisible) {
+       $('#navliste').addClass("hidden-mobile")
+       menuVisible = false;
+       return;
+     }
+     $('#navliste').removeClass("hidden-mobile")
+     menuVisible = true;
+   });
+ });
