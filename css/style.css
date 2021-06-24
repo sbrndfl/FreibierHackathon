@@ -79,6 +79,10 @@ body {
 
 }
 
+.bg-inhaltsstoffe {
+  background-color: #E5EBED;
+}
+
 .container-fluid {
   position: absolute;
   margin: 0px;
@@ -136,7 +140,7 @@ h1 {
 }
 
 .ueberuns {
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .gewinn {
@@ -144,10 +148,11 @@ h1 {
   border-width: medium;
   text-align: center;
   border-style: solid;
+  background-color: #E5EBED;
 }
 
 .form-control-lg {
-  width: 500px;
+  width: 70%;
 }
 
 .btn-primary {
@@ -177,16 +182,25 @@ h1 {
   justify-content: space-evenly;
 }
 
+
 .inhaltsstoffe-image img{
-  width: 100%;
-  object-fit: cover;
+height: 100%;
+position: absolute;
+object-fit: cover;
 }
 
-@media screen and (min-width:960px) {
+@media screen and (min-width:920px) {
   .inhaltsstoffe{
     position: relative;
   }
+  .inhaltsstoffe-image img{
+  position:relative;
+  object-fit: cover;
+  object-position: center;
+  padding-right: 0;
+  width: 100%;
 
+  }
   .inhaltsstoffe-image{
     max-width: 100%;
     width: 100%;
@@ -211,23 +225,11 @@ h1 {
   }
 }
 
-footer {
-  background-color: #464D4F;
-  color: white;
-  padding: 0;
-}
 
 
-@media only screen and (max-width: 992px) {
-  .hidden-tablet {
-    display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .hidden-mobile {
-    display: none;
-  }
-}
+
+
+
 
 
 
@@ -240,6 +242,12 @@ footer {
 @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .ueberuns{
+    display:inline-block;
   }
 }
 
@@ -258,4 +266,10 @@ a:hover, a:active {
 
 #icon {
   padding: 10px;
+}
+
+
+
+.footer a:hover {
+  color: #6EB1E2 !important;
 }

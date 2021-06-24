@@ -11,6 +11,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
 </head>
 
 <body id="start">
@@ -61,17 +62,17 @@
 
   <section>
 
-    <div class="row justify-content-center inhaltsstoffe">
+    <div class="row justify-content-center inhaltsstoffe bg-inhaltsstoffe">
       <ul class="inhaltsstoffe-text col-12 col-sm-5">
-        <li style="top:20%; right:60%;">Alkoholfrei</li>
-        <li style="top: 30%; right: 60%;">Kalorienarm</li>
-        <li style="top: 40%; right: 60%;">Isotonisch</li>
-        <li style="top: 60%; right: 20%;">Vegan nach deutschem Reinheitsgebot</li>
-        <li style="top: 80%; right: 30%;">Vitamin B2 und B12</li>
+        <li style="top:20%; right:20%;">Alkoholfrei</li>
+        <li style="top: 30%; right: 20%;">Kalorienarm</li>
+        <li style="top: 40%; right: 20%;">Isotonisch</li>
+        <li style="top: 50%; right: 25%;">Vegan nach <br> deutschem <br> Reinheitsgebot</li>
+        <li style="top: 75%; right: 25%;">Vitamin B2 <br> und B12</li>
       </ul>
 
       <div class="inhaltsstoffe-image col-12 col-sm-5">
-        <img src="./img/unserbier.jpeg" class="img-fluid">
+        <img src="./img/unserbier.jpeg" class="img-fluid img-inhalt">
       </div>
     </div>
     </div>
@@ -80,12 +81,12 @@
   <br>
   <section id="ueberunssprung">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <img src="./img/band.jpg" class="img-fluid">
+      <div class="row justify-content-evenly">
+        <div class="col-12 col-xl-6">
+          <img src="./img/band.jpg" class="img-fluid band-img">
         </div>
 
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-xl-6">
           <p class="ueberuns">Wir sind drei Studenten, die gerne und viel Bier genießen, aber auch gerne aktiv und
             gesund unterwegs sind.
             <br>Trotz einer großen Auswahl haben wir nie eine richtig gute alkoholfreie Alternative zum richtigen Bier
@@ -134,13 +135,10 @@
         role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only"></span> </span> </a> </div> <br>
-          <br>
-
-
 
           <section id="eventssprung">
             <div class="container gewinn">
-              <div class="row">
+              <div class="row gewinn">
                 <div class="col-12">
                   <h2>GEWINNE TICKETS BEIM KAUF EINES KASTENS FREIBIER!</h2>
                   <p>Als Sponsor unterstützen wir diverse Festivals in deiner Umgebung.
@@ -178,20 +176,33 @@
           <br>
           <br>
 
-          <footer>
-            <section id="kontaktsprung">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-sm-6">
-                    <p>IMPRESSUM<br><br>Freibier GmbH<br>Fischmarkt 14<br>65549 Limburg</p>
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <p>Tel: 0123/4567890<br>Mail: Freibier@info.de</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </footer>
+
+          <section>
+             <nav class="footer navbar navbar-expand-lg navbar-light background-nav bg-light">
+
+               <div class="collapse navbar-collapse footer" id="navbarSupportedContent">
+                 <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">Impressum</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#details">Kontakt</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#produkte">Datenschutz</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                   </li>
+                 </ul>
+               </div>
+             </nav>
+           </section>
+
+
 
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
