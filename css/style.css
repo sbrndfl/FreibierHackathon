@@ -169,9 +169,46 @@ h1 {
   font-size: 25px;
 }
 
-.inhaltsstoffe{
-  font-size: 40px;
+.inhaltsstoffe-text{
+  font-size: calc(1.5rem  + 1vw);
   font-family: "poppins" , sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inhaltsstoffe-image img{
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width:960px) {
+  .inhaltsstoffe{
+    position: relative;
+  }
+
+  .inhaltsstoffe-image{
+    max-width: 100%;
+    width: 100%;
+    flex: 1 1 100%;
+  }
+  
+
+  .inhaltsstoffe-text{
+    position: absolute;
+    z-index: 2;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    list-style-type: none;
+  }
+
+  .inhaltsstoffe-text>li{
+    position:absolute;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 footer {
