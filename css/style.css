@@ -1,4 +1,6 @@
 /* NAV */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 #icon {
   width: 55px;
@@ -16,15 +18,12 @@ html {
 }
 
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 25px;
   font-family: "poppins" , sans-serif;
-  margin-left: 60px;
-  margin-right: 60px;
   margin-top: 5px;
 }
 
@@ -42,12 +41,24 @@ nav ul {
   color: #6EB1E2;
 }
 
-.logo-image {
-  width: 90px;
-  height: 90px;
-  overflow: hidden;
-  margin-bottom: -10px;
-  margin-top: -10px;
+.topnav .navbar-brand{
+
+}
+.topnav .nav-item:nth-child(2),
+.topnav .nav-item:nth-child(3){
+  order: -1;
+
+}
+.navbar-nav {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.logo-image img {
+  display: block;
+  max-width: calc(3rem + 4vw);
+
 }
 /* NAV ENDE */
 /* BODY */
@@ -161,7 +172,6 @@ h1 {
 .inhaltsstoffe{
   font-size: 40px;
   font-family: "poppins" , sans-serif;
-  margin-top: 190px;
 }
 
 footer {
@@ -182,7 +192,6 @@ footer {
   }
 }
 
-a {display:none}
 
 
 @media only screen and (min-width: 768px) {
@@ -192,7 +201,7 @@ a {display:none}
 }
 
 @media screen and (max-width: 768px) {
-  .logo-image {
+  .navbar-brand {
     display: none;
   }
 }

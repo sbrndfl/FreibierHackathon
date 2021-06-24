@@ -24,7 +24,7 @@ $(function(){
 
 $(function() {
    var menuVisible = false;
-   $('#burger').click(function() {
+   $('#icon').click(function() {
      if (menuVisible) {
        $('#navliste').addClass("hidden-mobile")
        menuVisible = false;
