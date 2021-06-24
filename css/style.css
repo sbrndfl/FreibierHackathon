@@ -1,6 +1,6 @@
 /* NAV */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 #icon {
   width: 55px;
@@ -192,7 +192,7 @@ h1 {
     width: 100%;
     flex: 1 1 100%;
   }
-  
+
 
   .inhaltsstoffe-text{
     position: absolute;
