@@ -17,7 +17,7 @@
 <body id="start">
 
   <div class="bg-img">
-    <div class="container-fluid">
+    <div class="container-fluid container-navbar">
       <div class="topnav">
         <img id="icon" class="hidden-burger" src="img/burgericon.png" alt="burger menu icon">
         <nav class="navbar navbar-expand-sm">
@@ -51,59 +51,55 @@
   </div>
   <br>
 
-  <section id="unserbiersprung">
+  <section>
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1 class="blue-text">Authentischer Geschmack und die volle Kontrolle</h1>
         </div>
       </div>
+    </div>
   </section>
 
-  <section>
-
-    <div class="row justify-content-center inhaltsstoffe bg-inhaltsstoffe">
-      <ul class="inhaltsstoffe-text col-12 col-sm-5">
-        <li style="top:20%; right:20%;">Alkoholfrei</li>
-        <li style="top: 30%; left: 150%;">Kalorienarm</li>
-        <li style="top: 50%; right: 20%;">Isotonisch</li>
-        <li style="top: 55%; left: 150%;">Vegan nach <br> deutschem <br> Reinheitsgebot</li>
-        <li style="top: 75%; right: 25%;">Vitamin B2 <br> und B12</li>
+  <section id="unserbiersprung">
+    <div class="container-fluid">
+      <div class="row justify-content-center inhaltsstoffe bg-inhaltsstoffe">
+        <ul class="inhaltsstoffe-text col-12 col-sm-5">
+          <li style="top:20%; right:20%;">Alkoholfrei</li>
+          <li style="top: 30%; left: 150%;">Kalorienarm</li>
+          <li style="top: 50%; right: 20%;">Isotonisch</li>
+          <li style="top: 55%; left: 150%;">Vegan nach <br> deutschem <br> Reinheitsgebot</li>
+          <li style="top: 75%; right: 25%;">Vitamin B2 <br> und B12</li>
       </ul>
 
-      <div class="inhaltsstoffe-image col-12 col-sm-5">
-        <img src="./img/unserbier.jpeg" class="img-fluid img-inhalt" alt="Inhaltsstoffe">
+          <div class="inhaltsstoffe-image col-12 col-sm-6">
+            <img src="./img/unserbier.jpeg" class="img-fluid img-inhalt" alt="Inhaltsstoffe">
+          </div>
       </div>
-    </div>
-    </div>
+  </div>
   </section>
-  <br>
-  <br>
-  <section id="ueberunssprung">
+
+  <section id="ueberunssprung" class="abstand">
     <div class="container">
       <div class="row justify-content-evenly">
         <div class="col-12 col-xl-6">
-          <img src="./img/band.jpg" class="img-fluid band-img" alt="Foto in Bandraum">
+          <img src="./img/band.jpg" class="img-fluid w-100" alt="Foto in Bandraum">
         </div>
 
         <div class="col-12 col-xl-6">
-          <p class="ueberuns">Wir sind drei Studenten, die gerne und viel Bier genießen, aber auch gerne aktiv und
+          <p class="ueberuns">Wir sind drei Studenten, die gerne gutes Bier trinken, aber auch aktiv und
             gesund unterwegs sind.
-            <br>Trotz einer großen Auswahl haben wir nie eine richtig gute alkoholfreie Alternative zum richtigen Bier
+            <br>Trotz einer großen Auswahl haben wir nie eine passende alkoholfreie Alternative zum richtigen Bier
             gefunden. Das hat uns dazu bewegt, unser eigenes Bier auf den Markt zu bringen.
-            <br>Wir legen Wert auf komplett alkoholfreies Bier mit originalem Biergeschmack. Bei uns wird der Alkohol
-            bei geringer Hitze im Vakuum dem Bier entzogen, was die vollständige Entfernung des Alkohols ermöglicht.
+            <br>Wir legen Wert auf komplett alkoholfreies Bier mit originalem Biergeschmack. Damit wir den Alkohol aus unserem Bier vollständig entfernen können,
+            wird dieser bei geringer Hitze im Vakuum entzogen.
           </p>
         </div>
       </div>
     </div>
   </section>
-  <br>
-  <br>
-  <br>
 
-  <br>
-
+<section class="abstand">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -135,8 +131,10 @@
         role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only"></span> </span> </a> </div> <br>
+</section>
 
-          <section id="eventssprung" class="gewinn">
+
+          <section id="eventssprung" class="gewinn abstand">
             <div class="container">
               <div class="row">
                 <div class="col-12">
@@ -147,7 +145,7 @@
                     Festivals.
                   </p>
 
-                  <input type="text" class="form-control-lg" placeholder="Gib hier deinen Aktionscode ein" required>
+                  <input type="text" class="form-control-lg code" placeholder="Gib hier deinen Aktionscode ein" required>
                   <button type="Los" class="btn-primary">Los!</button>
                   <br>
                   <br>
@@ -155,11 +153,8 @@
               </div>
             </div>
           </section>
-          <br>
-          <br>
-          <br>
-          <br>
-          <section>
+
+          <section class="abstand">
             <div class="container">
               <div class="row justify-content-around ">
                 <div class="col-12 col-md-4">
@@ -173,11 +168,8 @@
               </div>
             </div>
           </section>
-          <br>
-          <br>
 
-
-          <section>
+          <section id="kontaktsprung">
              <nav class="footer navbar navbar-expand-lg navbar-light background-nav bg-light">
 
                <div class="navbar-collapse footer" id="navbarSupportedContent">
@@ -186,7 +178,29 @@
                      <a class="nav-link" href="#">Impressum</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="#details">Kontakt</a>
+                     <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter" href="#details">Kontakt</a>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Kontakt</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Freibier GmbH <br>
+                            Freibierstraße 25 <br>
+                            12345 Freihausen<br> <br>
+                            Tel.: 0987 1234564 <br>
+                            Mail: info@freibier.de
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                    </li>
                    <li class="nav-item">
                      <a class="nav-link" href="#produkte">Datenschutz</a>
