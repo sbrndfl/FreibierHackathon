@@ -227,12 +227,6 @@ object-fit: cover;
 
 
 
-
-
-
-
-
-
 @media only screen and (min-width: 768px) {
   .hidden-burger {
     display: none;
@@ -241,6 +235,12 @@ object-fit: cover;
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hidden-mobile {
     display: none;
   }
 }
