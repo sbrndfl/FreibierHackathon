@@ -128,9 +128,7 @@ h1 {
   height: 100%;
 }
 
-.carousel-inner {
-  height: 800px;
-}
+
 
 
 .band {
@@ -144,10 +142,8 @@ h1 {
 }
 
 .gewinn {
-  border-color: #6EB1E2;
-  border-width: medium;
+  margin-top: 50px;
   text-align: center;
-  border-style: solid;
   background-color: #E5EBED;
 }
 
