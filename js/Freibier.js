@@ -35,13 +35,14 @@ $(function() {
    });
  });
 
- $(document).ready(function() {
 
-   $('#button').click( function () {
- if('#gewinnCode'="123") {
- alert("Du hast gewonnen!");
+ $(function() {
+   const code = document.getElementById('code')
+    $('#button').click( function () {
+  if (code.value === "freibier") {
+  alert("Du hast gewonnen!");
 } else {
- alert("Du hast verloren!")
-}
-});
-});
+  alert("Du hast verloren!");
+ }
+ });
+ });

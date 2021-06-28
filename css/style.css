@@ -1,21 +1,18 @@
-/* NAV */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-
+/* NAV */
 #icon {
   width: 55px;
   background: transparent;
   padding-left: 20px;
+  padding: 10px;
 }
 .topnav {
   background-color: rgba(0,0,0,0.3);
   overflow: hidden;
   margin-top: 0px;
   width: 100%;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .topnav a {
@@ -49,14 +46,11 @@ nav ul {
   color: #6EB1E2;
 }
 
-.topnav .navbar-brand{
-
-}
 .topnav .nav-item:nth-child(2),
 .topnav .nav-item:nth-child(3){
   order: -1;
-
 }
+
 .navbar-nav {
   align-items: center;
   justify-content: space-evenly;
@@ -66,11 +60,23 @@ nav ul {
 .logo-image img {
   display: block;
   max-width: calc(3rem + 4vw);
+}
 
+ul {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+nav ul li {
+  display: block;
+}
+a:hover, a:active {
+  background:none;
+  color: #0082e6;
 }
 /* NAV ENDE */
 /* BODY */
-body {
+body, html {
   background-color: #fff;
   padding: 0;
   margin: 0;
@@ -84,9 +90,18 @@ body {
   position: relative;
   height: 100vh;
   background-attachment: fixed;
-
 }
 
+.abstand{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+a {
+  color: white;
+}
+/*BODY ENDE*/
+/*INHALTSSTOFFE*/
 .bg-inhaltsstoffe {
   background-color: #E5EBED;
   padding-top: 20px;
@@ -95,6 +110,22 @@ body {
 
 
 
+.inhaltsstoffe-text{
+  font-size: calc(1.5rem  + 1vw);
+  font-family: "poppins" , sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: circle;
+}
+
+
+.inhaltsstoffe-image img{
+height: 100%;
+position: absolute;
+object-fit: cover;
+}
+/*INHALTSSTOFFE ENDE*/
 .blue-text {
   color: #6EB1E2;
 }
@@ -108,16 +139,10 @@ h1 {
   text-align: center;
 }
 
-.d-block {
-  height: 100%;
-}
-
-
-
 .ueberuns {
   font-size: 27px;
 }
-
+/*GEWINNSPIEL*/
 .gewinn {
   margin-top: 50px;
   text-align: center;
@@ -138,33 +163,14 @@ h1 {
   border-radius: 5px;
   font-size: 20px;
 }
-
-.kunde {
-  height: 400px;
-
-}
+/* GEWINNSPIEL ENDE*/
 
 .text {
   text-align: center;
   font-size: 25px;
 }
 
-.inhaltsstoffe-text{
-  font-size: calc(1.5rem  + 1vw);
-  font-family: "poppins" , sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  list-style: circle;
-}
-
-
-.inhaltsstoffe-image img{
-height: 100%;
-position: absolute;
-object-fit: cover;
-}
-
+/*RESPONSIVE*/
 @media screen and (min-width:920px) {
   .inhaltsstoffe{
     position: relative;
@@ -201,8 +207,6 @@ object-fit: cover;
   }
 }
 
-
-
 @media only screen and (min-width: 768px) {
   .hidden-burger {
     display: none;
@@ -226,33 +230,14 @@ object-fit: cover;
     display:inline-block;
   }
 }
-
-ul {
-  text-align: center;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-nav ul li {
-  display: block;
-}
-a:hover, a:active {
-  background:none;
-  color: #0082e6;
-}
-
-#icon {
-  padding: 10px;
-}
-
-
-
+/*RESPONSIVE ENDE*/
+/*FOOTER*/
 .footer a:hover {
-  color: #6EB1E2 !important;
+  color: #6EB1E2;
 }
+
 .footer {
   background-color: #464D4F;
+  padding: 0px;
 }
-.abstand{
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
+/*FOOTER ENDE*/
