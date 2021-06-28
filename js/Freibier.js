@@ -34,3 +34,14 @@ $(function() {
      menuVisible = true;
    });
  });
+
+ $(document).ready(function() {
+
+   $('#button').click( function () {
+ if('#gewinnCode'="123") {
+ alert("Du hast gewonnen!");
+} else {
+ alert("Du hast verloren!")
+}
+});
+});
