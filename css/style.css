@@ -249,7 +249,9 @@ a:hover, a:active {
 .footer a:hover {
   color: #6EB1E2 !important;
 }
-
+.footer {
+  background-color: #464D4F;
+}
 .abstand{
   margin-top: 70px;
   margin-bottom: 70px;
