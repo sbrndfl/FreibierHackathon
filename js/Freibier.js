@@ -26,11 +26,11 @@ $(function() {
    var menuVisible = false;
    $('#icon').click(function() {
      if (menuVisible) {
-       $('#navliste').addClass("hidden-mobile")
+       $('#navliste').addClass("hidden-mobile");
        menuVisible = false;
        return;
      }
-     $('#navliste').removeClass("hidden-mobile")
+     $('#navliste').removeClass("hidden-mobile");
      menuVisible = true;
    });
  });
