@@ -35,7 +35,7 @@ $(function() {
    });
  });
 
-$('.modaleins').modal('hide');
+
  $(function() {
    const code = document.getElementById('code')
     $('#button').click( function () {
