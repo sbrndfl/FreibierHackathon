@@ -35,14 +35,14 @@ $(function() {
    });
  });
 
-
+$('.modaleins').modal('hide');
  $(function() {
    const code = document.getElementById('code')
     $('#button').click( function () {
   if (code.value === "freibier") {
-  alert("Du hast gewonnen!");
+  $('.modaleins').modal('show');
 } else {
-  alert("Du hast verloren!");
+  alert('Schade, leider nicht den richtigen Code erwischt. Mehr Glück beim nächsten Mal!');
  }
  });
  });
