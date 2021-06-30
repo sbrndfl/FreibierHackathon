@@ -142,13 +142,18 @@ h1 {
 .ueberuns {
   font-size: 27px;
 }
+
+.abstand-carousel {
+  margin-bottom: 0px;
+  margin-top: 80px;
+  background-color: #e5ebed;
+}
 /*GEWINNSPIEL*/
 .gewinn {
-  margin-top: 50px;
   text-align: center;
   background-color: #E5EBED;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .form-control-lg {
