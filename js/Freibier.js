@@ -42,7 +42,7 @@ $(function() {
   if (code.value === "freibier") {
   $('.modaleins').modal('show');
 } else {
-  alert('Schade, leider nicht den richtigen Code erwischt. Mehr Glück beim nächsten Mal!');
+  $('.modalzwei').modal('show');
  }
  });
  });
