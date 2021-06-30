@@ -181,6 +181,11 @@ h1 {
   text-align: center;
   font-size: 25px;
 }
+.gewinn-text {
+    color: #6EB1E2;
+
+}
+
 
 /*RESPONSIVE*/
 @media screen and (min-width:920px) {
@@ -240,6 +245,12 @@ h1 {
   }
   .inhaltsstoffe-text{
     font-size: 20px;
+  }
+  .gewinn-text {
+    font-size: 25px;
+  }
+  .ueberuns{
+    font-size: 17px;
   }
 }
 
